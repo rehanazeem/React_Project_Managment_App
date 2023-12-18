@@ -32,11 +32,11 @@ export default function NewProject({ onAdd, onCancel }) {
   return (
     <>
       <Modal ref={modal} buttonCaption="Close">
-        <h2 className="text-xl font-bold text-stone-700 my-4">Invalid Input</h2>
-        <p className="text-stone-600 mb-4">
+        <h2 className="my-4 text-xl font-bold text-stone-700">Invalid Input</h2>
+        <p className="mb-4 text-stone-600">
           Oops ... looks like you forget to enter a value.
         </p>
-        <p className="text-stone-600 mb-4">
+        <p className="mb-4 text-stone-600">
           Please make sure you provide a valid value for every input fields.
         </p>
       </Modal>
