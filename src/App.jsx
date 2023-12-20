@@ -13,6 +13,7 @@ function App() {
     setProjectsState((prevState) => {
       return {
         ...prevState,
+        
         selectedProjectId: null,
       };
     });
