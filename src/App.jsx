@@ -56,14 +56,14 @@ function App() {
     });
   }
 
-  // function handleStartProject() {
-  //   setProjectsState((prevState) => {
-  //     return {
-  //       ...prevState,
-  //       selectedProjectId: null,
-  //     };
-  //   });
-  // }
+  function handleStartProject() {
+    setProjectsState((prevState) => {
+      return {
+        ...prevState,
+        selectedProjectId: null,
+      };
+    });
+  }
 
   function handleCancelProject() {
     setProjectsState((prevState) => {
